@@ -1,0 +1,42 @@
+{
+  "name": "mern-boilerplate",
+  "version": "0.0.1",
+  "description": "MERN boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-gamage/mern-boilerplate.git"
+  },
+  "keywords": [
+    "es6",
+    "express",
+    "redux"
+  ],
+  "author": "Priyanga Gamage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p-gamage/mern-boilerplate/issues"
+  },
+  "homepage": "https://github.com/p-gamage/mern-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
